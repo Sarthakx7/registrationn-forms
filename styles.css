@@ -1,59 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-image: url('association-registration-form.webp');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
 }
 
 .form-container {
-    background: #fff;
+    background: #d7d1d5;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-family: 'Reddit Mono', monospace;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Reddit Mono', monospace;
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #4b4949;
     border-radius: 5px;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #ff0000;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     cursor: pointer;
+    font-family: 'Reddit Mono', monospace;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ae0000;
 }
 
 .error-message {
-    color: red;
+    color: rgb(223, 4, 4);
     font-size: 12px;
 }
