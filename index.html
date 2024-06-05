@@ -13,18 +13,27 @@
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError"></span>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span class="error-message" id="confirmPasswordError"></span>
             </div>
             <div class="form-group">
                 <label for="dob">Date of Birth:</label>
                 <input type="date" id="dob" name="dob" required>
+                <span class="error-message" id="dobError"></span>
             </div>
             <div class="form-group">
                 <button type="submit">Submit</button>
